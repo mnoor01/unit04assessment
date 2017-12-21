@@ -8,11 +8,19 @@
   <FrameLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content">
+      <EditText
+          android:id="@+id/top_container"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
 
   </FrameLayout>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/bottomcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </FrameLayout>
 
