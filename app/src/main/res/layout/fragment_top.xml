@@ -2,18 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.c4q.unit04assessment.Fragments.DisplayFragment">
+    tools:context="com.example.c4q.unit04assessment.Fragments.TopFragment">
 
     <!-- TODO: Update blank fragment layout -->
-  <FrameLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content">
-
-  </FrameLayout>
-    <FrameLayout
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </FrameLayout>
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
